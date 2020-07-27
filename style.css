@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    
+}
+.upper-tab {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    text-align: center;
+    background: #BE3760;
+    width: 250px;
+    height: 65px;
+}
+.plan-billing{
+    margin-top: 100px;
+}
+body {
+    background: #1E1E21;
+}
+.entire-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #1E1E21;
+}
+.cards {
+    background: #545C5C;
+    border-radius: 5px;
+    height: 450px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    margin-bottom: 20px;
+
+}
+.spans {
+    margin: 20px;
+    color: white;
+}
+.cards-container{
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+    width: 1000px;
+}
+.list {
+    margin-top: 40px;
+    width: 150px;
+    height: fit-content;
+    font-size: 16px;
+}
+.choose-bttn {
+    border-radius: 10px;
+    border: 2px solid #BE3760;
+    padding: 7px;
+    margin-bottom: 10px;
+}
+ul {
+    list-style: none; /* Remove default bullets */
+  }
+  
+  ul li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #BE3760; /* Change the color */
+    
+  }
+.cards p {
+    margin-top: 20px;
+}
+.choose-plan{
+    background:;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+.select-opt {
+    background-color: grey;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 5px;
+    
+}
+.pro-list {
+    margin-bottom: 10px;
+}
+.form {
+    background:;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.header {
+    font-size: 20px;
+    font-weight: bold;
+}
